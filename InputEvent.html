@@ -24,13 +24,28 @@
 <p>The textarea element defines a multi-line input field.</p>
 
 <form action="/action_page.php" method="post">
-  Title:<br>
+  Name:<br>
   <input class="text" type="text" name="Title" placeholder="Write a title" >
   <br>
   <br>
-  Address:<br>
+  Place:<br>
   <input class="text" type="text" name="Address" placeholder="Address" >
   <br>
+  <br>
+  <form action="/action_page.php">
+  Start Date: <input type="date" name="bday">
+  <input type="submit">
+
+  Starts at: <input type="time" name="usr_time">
+  <input type="submit">
+</form>
+<br>
+  <form action="/action_page.php">
+  End Date: <input type="date" name="bday">
+  <input type="submit">
+  Ends at: <input type="time" name="usr_time">
+  <input type="submit">
+  </form>
   <br>
   Details:<br>
   <textarea name="message" rows="10" cols="30"></textarea>
